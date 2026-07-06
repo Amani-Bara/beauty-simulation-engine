@@ -127,7 +127,7 @@ Amani Bara — Computer Science / AI Graduate, Effat University
 ## Demo
 
 ### Botox Simulation
-![Botox Result](demo/botox.jpg)
+![Botox Result](demo/botox.png)
 
 ### Filler Simulation  
-![Filler Result](demo/filler.jpg)
+![Filler Result](demo/filler.png)
