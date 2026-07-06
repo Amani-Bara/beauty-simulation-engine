@@ -65,16 +65,20 @@ The simulation preserves natural skin texture and tone — results look like rea
 beauty-simulation-engine/
 ├── backend/
 │   ├── features/
-│   │   ├── botox.py               # Botox simulation pipeline
-│   │   ├── filler.py              # Cheek/jaw/chin filler simulation
-│   │   └── lips_mesh_advanced.py  # Lip filler with shapes and tints
+│   │   ├── botox.py                   # Botox simulation pipeline
+│   │   ├── filler.py                  # Cheek, jaw, chin filler simulation
+│   │   ├── lips_mesh_advanced.py      # Lip filler with shapes and tints
+│   │   └── breast.py                  # Breast simulation (in development)
 │   ├── utils/
 │   │   └── face_detect.py
-│   └── main.py                    # FastAPI endpoints
+│   └── main.py                        # FastAPI endpoints
 └── frontend/
-└── src/
-├── App.jsx                # Main React component
-└── App.css                # Styling
+    ├── public/
+    └── src/
+        ├── App.jsx                    # Main React component
+        ├── App.css                    # Styling
+        ├── main.jsx
+        └── index.css
 
 
 
@@ -119,3 +123,11 @@ Open `http://localhost:5173` in your browser.
 ## Built By
 
 Amani Bara — Computer Science / AI Graduate, Effat University
+
+## Demo
+
+### Botox Simulation
+![Botox Result](demo/botox.jpg)
+
+### Filler Simulation  
+![Filler Result](demo/filler.jpg)
